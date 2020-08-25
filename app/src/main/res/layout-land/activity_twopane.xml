@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="?android:attr/dividerHorizontal"
+        android:showDividers="middle"
+        android:orientation="vertical"
+        android:background="@drawable/conecta4fondoland">
+
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    >
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?android:attr/dividerHorizontal"
+            android:showDividers="middle"
+            android:orientation="horizontal">
+        <FrameLayout
+                android:id="@+id/fragment_container"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+        >
+        </FrameLayout>
+
+        <FrameLayout
+                android:id="@+id/detail_fragment_container"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+        >
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

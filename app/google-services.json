@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "922643087684",
+    "firebase_url": "https://fir-conecta4.firebaseio.com",
+    "project_id": "fir-conecta4",
+    "storage_bucket": "fir-conecta4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922643087684:android:d55315b6ad402fff",
+        "android_client_info": {
+          "package_name": "com.example.e339744.conecta4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922643087684-o8vqqj6764snd875heav2amnl69qpt63.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.e339744.conecta4",
+            "certificate_hash": "fae84307fd40bb4ca458a63929761899fb29bf7f"
+          }
+        },
+        {
+          "client_id": "922643087684-e10fdk77t5pnhgihj42v3vrqqmbmi352.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAnben-VnKJr2PS7WSsoPTGHHayFUIavY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922643087684-e10fdk77t5pnhgihj42v3vrqqmbmi352.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
